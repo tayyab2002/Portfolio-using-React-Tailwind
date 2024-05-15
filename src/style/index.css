@@ -11,7 +11,7 @@ body> ul,li,img,button{
 }
 /* set image for banner */
 .setImg { 
-    background-image: url('./assets/images/bnrBG.jpg');
+    background-image: url('../assets/images/bnrbg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@ body> ul,li,img,button{
 }
 @media screen and (width <= 786px){
     .setImg{
-        background-image: url("./assets/images/mobView.jpg");
+        background-image: url("../assets/images/bnrbg.jpg");
     }
 }
 ::-webkit-scrollbar {
