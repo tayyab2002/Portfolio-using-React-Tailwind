@@ -1,12 +1,15 @@
-import MainPath from "./components/MainPath"
+import { Suspense, lazy } from "react";
+import Lazyloader from "./components/loader/Lazyloader";
 
-const App =()=> {
-
+const Root = lazy(() => import("./components/Root/Root"));
+const App = () => {
   return (
-    <div>
-    <MainPath/>
-    </div>
-  )
-}
+    <>
+      <Suspense fallback={<Lazyloader />}>
+        <Root />
+      </Suspense>
+    </>
+  );
+};
 
-export default App
+export default App;

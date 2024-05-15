@@ -1,0 +1,95 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Custom Website Development",
+      "description": "We offer custom website development tailored to your specific needs. Our team will work closely with you to create a website that aligns with your brand identity and achieves your business goals.",
+      "image": "/images/ser3.jpg",
+      "hashtag": [
+        { "id": 1, "tag": "#custom web" },
+        { "id": 2, "tag": "#Website" },
+        { "id": 3, "tag": "#Develop" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "UI/UX Designer",
+      "description": "Our UI/UX design services focus on creating engaging and intuitive user experiences. We combine user research, wireframing, and prototyping to deliver designs that enhance user satisfaction and drive business success.",
+      "image": "/images/ser1.jpg",
+      "hashtag": [
+        { "id": 1, "tag": "#UI Design" },
+        { "id": 2, "tag": "#UX Design" },
+        { "id": 3, "tag": "#Design" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Responsive Web Design",
+      "description": "With the increasing use of mobile devices, having a responsive website is essential. Our team excels in creating responsive web designs that provide optimal viewing and interaction experience across a wide range of devices.",
+      "image": "/images/ser2.jpg",
+      "hashtag": [
+        { "id": 1, "tag": "#Responsive" },
+        { "id": 2, "tag": "#Website" },
+        { "id": 3, "tag": "#Develop" }
+      ]
+    }
+  ],
+  "skillsProgress": [
+    {
+      "id": 1,
+      "name":"HTML",
+      "progress":"99%"
+    },
+    {
+      "id": 2,
+      "name":"CSS",
+      "progress":"90%"
+    },
+    {
+      "id": 3,
+      "name":"JS",
+      "progress":"86%"
+    },
+    {
+      "id": 4,
+      "name":"ReactJS",
+      "progress":"80%"
+    },
+    {
+      "id": 8,
+      "name":"NextJS",
+      "progress":"70%"
+    },
+    {
+      "id": 5,
+      "name":"Angular",
+      "progress":"60%"
+    },
+    {
+      "id": 6,
+      "name":"Node",
+      "progress":"70%"
+    },
+    {
+      "id": 7,
+      "name":"MongoDB",
+      "progress":"68%"
+    }
+  ],
+  "educationHistory":[
+    {
+      "id":1,
+      "level":"FSc/Intermediate",
+      "name":"Pakistan Degree College of Information Sciences-(PADCIS)",
+      "location":"Nowshera City, Khyber Pakhtunkhwa(Kpk), Pakistan",
+      "img":"/images/padcis.jpg"
+    },
+    {
+      "id":2,
+      "level":"BSc(Bachelor of Science)",
+      "name":"Abdul Wali Khan University Mardan-(AWKUM)",
+      "location":"Mardan City, Khyber Pakhtunkhwa(Kpk), Pakistan",
+      "img":"/images/awkumm.jpeg"
+    }
+  ]
+}

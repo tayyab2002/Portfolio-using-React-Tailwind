@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body> ul,li,img,button{ 
+    cursor: pointer;
+}
+::selection{
+    background-color: skyblue;
+    color: black;
+}
+/* set image for banner */
+.setImg { 
+    background-image: url('./assets/images/bnrBG.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media screen and (width <= 786px){
+    .setImg{
+        background-image: url("./assets/images/mobView.jpg");
+    }
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: black;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .Loader{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
