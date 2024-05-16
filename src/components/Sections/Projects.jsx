@@ -1,7 +1,9 @@
 const Projects = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-10">
-      <div className="text-center text-4xl font-mono font-bold py-10">Projects</div>
+      <div className="text-center text-4xl font-mono font-bold py-10">
+        Projects
+      </div>
       <div>
         <div className="grid grid-cols-3 md:grid-cols-4 gap-5">
           <div>
@@ -89,9 +91,6 @@ const Projects = () => {
             />
           </div>
         </div>
-      </div>
-      <div className="text-center text-4xl font-mono font-bold py-10 border border-orange-400 rounded-full" >
-      <h1 className="text-orange-600">COMING SOON.........</h1>
       </div>
     </div>
   );
