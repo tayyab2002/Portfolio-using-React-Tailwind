@@ -6,7 +6,8 @@ import { FaCss3Alt, FaReact } from "react-icons/fa6";
 import { TbBrandJavascript, TbBrandNextjs } from "react-icons/tb";
 import { SiMui, SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 import { IoLogoAngular } from "react-icons/io";
-import { FaNode, FaBootstrap } from "react-icons/fa";
+import { FaNode, FaBootstrap, FaPhp  } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
 // ================================================================================
 import skillsProgressData from "../../data/details.json";
 const Skills = () => {
@@ -27,6 +28,8 @@ const Skills = () => {
           <FaNode className="hover:text-green-800 hover:scale-105 duration-300" />
           <SiExpress className="hover:scale-105 duration-300" />
           <SiMongodb className="hover:text-green-800 hover:scale-105 duration-300" />
+          <FaPhp className="hover:text-blue-800 hover:scale-105 duration-300"/>
+          <SiMysql className="hover:text-blue-700 hover:scale-105 duration-300"/>
         </div>
       </div>
       <div className=" text-[20px] text-center font-mono md:text-3xl font-bold underline">
