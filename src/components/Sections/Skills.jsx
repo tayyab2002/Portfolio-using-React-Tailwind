@@ -28,7 +28,7 @@ const Skills = () => {
           <FaNode className="hover:text-green-800 hover:scale-105 duration-300" />
           <SiExpress className="hover:scale-105 duration-300" />
           <SiMongodb className="hover:text-green-800 hover:scale-105 duration-300" />
-          <FaPhp className="hover:text-blue-800 hover:scale-105 duration-300"/>
+          <FaPhp className="hover:text-blue-900 hover:scale-105 duration-300"/>
           <SiMysql className="hover:text-blue-700 hover:scale-105 duration-300"/>
         </div>
       </div>
