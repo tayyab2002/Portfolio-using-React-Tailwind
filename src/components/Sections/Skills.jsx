@@ -8,6 +8,8 @@ import { SiMui, SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 import { IoLogoAngular } from "react-icons/io";
 import { FaNode, FaBootstrap, FaPhp  } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
+import { FaVuejs } from "react-icons/fa";
+
 // ================================================================================
 import skillsProgressData from "../../data/details.json";
 const Skills = () => {
@@ -30,6 +32,7 @@ const Skills = () => {
           <SiMongodb className="hover:text-green-800 hover:scale-105 duration-300" />
           <FaPhp className="hover:text-blue-900 hover:scale-105 duration-300"/>
           <SiMysql className="hover:text-blue-700 hover:scale-105 duration-300"/>
+          <FaVuejs className="hover:text-[#3FB27F] hover:scale-105 duration-300" />
         </div>
       </div>
       <div className=" text-[20px] text-center font-mono md:text-3xl font-bold underline">
