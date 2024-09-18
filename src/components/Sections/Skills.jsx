@@ -20,19 +20,19 @@ const Skills = () => {
         <div className="grid grid-cols-3 md:grid md:grid-cols-5 gap-16">
           <TiHtml5 className="hover:text-orange-600 hover:scale-105 duration-500" />
           <FaCss3Alt className="hover:text-blue-400 hover:scale-105 duration-500" />
-          <FaBootstrap className="hover:text-purple-900 hover:scale-105 duration-500" />
-          <TbBrandJavascript className="hover:text-yellow-500 hover:scale-105 duration-500" />
-          <SiTailwindcss className="hover:text-blue-500 hover:scale-105 duration-500" />
           <SiMui className="hover:text-blue-800 hover:scale-105 duration-500" />
+          <FaBootstrap className="hover:text-purple-900 hover:scale-105 duration-500" />
+          <SiTailwindcss className="hover:text-blue-500 hover:scale-105 duration-500" />
+          <TbBrandJavascript className="hover:text-yellow-500 hover:scale-105 duration-500" />
           <FaReact className="hover:text-blue-300 hover:scale-105 duration-500" />
           <TbBrandNextjs className="hover:scale-105 duration-300" />
           <IoLogoAngular className="hover:text-red-700 hover:scale-105 duration-300" />
+          <FaVuejs className="hover:text-[#3FB27F] hover:scale-105 duration-300" />
           <FaNode className="hover:text-green-800 hover:scale-105 duration-300" />
           <SiExpress className="hover:scale-105 duration-300" />
           <SiMongodb className="hover:text-green-800 hover:scale-105 duration-300" />
           <FaPhp className="hover:text-blue-900 hover:scale-105 duration-300"/>
           <SiMysql className="hover:text-blue-700 hover:scale-105 duration-300"/>
-          <FaVuejs className="hover:text-[#3FB27F] hover:scale-105 duration-300" />
         </div>
       </div>
       <div className=" text-[20px] text-center font-mono md:text-3xl font-bold underline">
